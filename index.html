@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Parwaz Singh Sarao</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">sarao.p@northeastern.edu</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+1 (617) 447-9003</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 28, 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Boston, Massachusetts, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          
+
+          <li class="social-item">
+            <a href="https://github.com/Parwazsingh" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/parwazssarao1051/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Research</button>
+          </li>
+
+          
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            As a Master of Science in Computer Science candidate at Northeastern University, I bring a robust skill set in programming languages including C++, Python, and Java. My technical expertise extends to web technologies such as HTML, CSS, ReactJS, NodeJS, and ExpressJS, and I am proficient in databases like MySQL, MongoDB, and Firebase. I hold certifications from prestigious platforms like Udemy and Coursera, enhancing my knowledge in web development.
+          </p>
+
+          <p>
+            My practical experience is underscored by internships at Nahar Group of Companies and Metaphor Networks in India, where I honed my full-stack development skills. These roles allowed me to work on various APIs, improve user interfaces, and participate in comprehensive software development cycles. Additionally, my academic projects showcase my capabilities in machine learning and data analysis.
+          </p>
+          <p>
+            I am passionate about harnessing technology to create innovative and impactful solutions for diverse domains and audiences. I am a leader and a collaborator in tech organizations, where I teach, mentor, and advise peers and juniors on web development and other topics. I am always eager to learn, grow, and connect with others who share my vision and values. I am actively seeking internship opportunities for Summer 2024, where I can contribute to cutting-edge projects and initiatives in the dynamic world of technology.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Science</h4>
+
+                <p class="service-item-text">
+                  
+                 I analyze and interpret complex digital data to assist in decision-making and strategic planning.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+<!--
+        <section class="testimonials">
+
+         <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+-->
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+ 
+        <!--
+          - clients
+        -->
+  
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Organizations</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/bahr.jpeg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/imresizer-1706889934599.jpg" alt="client logo">
+              </a>
+            </li>
+
+            
+
+            
+=
+
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Northeastern University</h4>
+
+              <span>2023 — Present</span>
+
+              <p class="timeline-text">
+                Masters in Computer Science
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SRM Institute of Science and Technology</h4>
+
+              <span>2019 — 2023</span>
+
+              <p class="timeline-text">
+                B.Tech in Computer Science and Engineering
+                <br/>
+                CGPA : 9.33/10
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3"> Professional Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Nahar Group of Companies</h4>
+
+              <span> Full Stack Developer Intern<br/>
+                June 2022 — July 2022</span>
+
+              <p class="timeline-text">
+                Revamped user interfaces with HTML, CSS and Bootstrap elevating user engagement with responsive design.
+                <br/>
+                Engineered React.js components, boosting site performance by 30% through efficient, user-centric design.
+                <br/>
+                Streamlined SQL and MongoDB queries, reducing data retrieval times and enhancing server responsiveness.
+                
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Metaphor Networks</h4>
+
+              <span> Full Stack Developer Intern<br/>
+                April 2022 – May 2022</span>
+
+              <p class="timeline-text">
+                Crafted and deployed APIs utilizing Express.js, which streamlined data retrieval processes and improved application efficiency by 18%.
+                <br/>
+                Enhanced application functionality by integrating front-end and back-end with React and Node.js in team collaboration.
+                <br/>
+                Optimized web functionality with MySQL by crafting efficient database triggers and stored procedures.
+              </p>
+
+            
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C++</h5>
+                <data value="80">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Development</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Pyhton Data Science</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="projects active" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development </button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Data Science</button>
+            </li>
+
+          
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Data Science</button>
+              </li>
+
+            
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item="" data-category="web development">
+              <h3 class="project-title">COWIN</h3>
+              <p class="project-category">A Centralized Vaccine distribution system made on a robust responsive UI which makes process of vaccine distribution smoothly by scheduling appointment by Scheduler and vaccine tracking and Ordering System for different Stakeholders
+
+                Where a User can login, register for vaccine and its family member, check status and get a vaccinated certificate. & a Hospital vaccine managment system where it can take order and vaccine the users, where as there is an goverment portal also where it can grant hsopital for hospital and track records of hostpial.</p>
+            </li>
+
+            <li class="project-item  active" data-filter-item="" data-category="web development">
+              <h3 class="project-title">Face Recognition GUI APP</h3>
+              <p class="project-category">The Face Recognition GUI-App is an innovative application designed for efficient and accurate face detection. This simple yet powerful tool is comprised of three main functionalities, making it an effective solution for users looking for reliable face recognition technology. Initially, the application offers a 'Collect Face Data' feature, which harnesses the capabilities of a camera to gather essential facial data. Following data collection, the 'Build Face Classifier' stage comes into play, where advanced processing techniques are applied to the captured data to create a robust face recognition model. The final stage, 'Detect the Face,' showcases the app's core capability, where it employs the trained classifier to identify and authenticate faces in real time. T</p>
+            </li>
+
+            <li class="project-item  active" data-filter-item="" data-category="web development">
+              <h3 class="project-title">Snappy Messenger </h3>
+              <p class="project-category">
+                Snappy-chat is an efficient real-time chat application developed using socket.io, facilitating instant messaging among multiple clients. Its user-friendly interface is crafted with JavaScript, React, and styled-components, while the backend is powered by Node.js and Express.js, with Axios for seamless data handling. The app employs a MongoDB NoSQL database, ensuring quick and scalable chat data management. Snappy-chat offers a streamlined platform for dynamic and responsive online communication.
+
+</p>
+            </li>
+            <li class="project-item  active" data-filter-item="" data-category="web development">
+              <h3 class="project-title">Connectify</h3>
+              <p class="project-category">
+                Connectify as, the name suggests is a web app that helps you to connect. People say that if you work in a group, then you become more powerful.You get meet new People. So, connectify just helps people with similar interests to Connect,create and Conquer. Let's Say you have a Hackathon coming Up in a month or you just want to group study.Then, you can just post on Connectify, and your requirements will be visible to the whole world.
+              </p>
+            </li>
+            
+            <li class="project-item  active" data-filter-item="" data-category="data science">
+              <h3 class="project-title">Machine Learning Based Customer Churn Prediction in E-Commerce</h3>
+              <p class="project-category">
+                This project applies machine learning techniques to predict customer churn in the e-commerce sector, highlighting the importance of customer retention for cost-effectiveness. It utilizes a rich dataset featuring transactional and demographic information of customers, undergoing processes like data preprocessing and exploratory data analysis. The project employs various machine learning models, such as Logistic Regression, Decision Trees, and Random Forest, alongside SMOTE oversampling to tackle data imbalance, aiming to accurately forecast customer churn.
+              </p>
+            </li>
+            
+            <li class="project-item  active" data-filter-item="" data-category="data science">
+              <h3 class="project-title">Flight Fare Prediction Using Machine Learning</h3>
+              <p class="project-category">
+                In the Flight Fare Prediction project, advanced machine learning techniques were employed to analyze and predict airfare prices. The project involved extensive data preprocessing and feature selection on a comprehensive dataset of flight prices. A variety of machine learning models, including Random Forest, XGBoost, and Logistic Regression, were utilized to forecast flight fares. Notably, the Random Forest algorithm achieved the highest accuracy, proving to be a valuable tool in helping customers make cost-effective booking decisions.
+              </p>
+            </li>
+            
+            <li class="project-item  active" data-filter-item="" data-category="data science">
+              <h3 class="project-title">Bank Customer Churn Prediction </h3>
+              <p class="project-category">
+                In the Bank-Customer-Churn-Prediction project, we developed a machine learning model for “ABC BANK” to predict customer churn rates effectively. This model analyzes various factors like credit scores, geographical locations, account balances, and customer activity to identify the likelihood of customers discontinuing their services. Utilizing a dataset with key variables such as customer demographics, account details, and transaction history, the model was trained on a 70/30 split of training and test sets. Feature engineering played a crucial role in refining the data for accuracy. The project emphasized evaluating the model’s performance on both sets to ensure reliability and address any overfitting issues, aiming to provide the bank with a predictive tool to mitigate customer attrition and uphold its reputation.
+              </p>
+            </li>
+          
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="research active" data-page="research">
+
+        <header>
+          <h2 class="h2 article-title">Research</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://ieeexplore.ieee.org/document/10404319">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/machine-learning-pillar-page-overview.jpeg" alt="Comparative Performance Analysis using Machine Learning for Churn Prediction in E-commerce" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Machine Learning</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">May 14, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Comparative Performance Analysis using Machine Learning for Churn Prediction in E-commerce</h3>
+
+                  <p class="blog-text">
+                    New clients cost a business significantly more money in e-commerce than keeping its existing clients. Companies can boost consumer retention, which will result in more revenue and faster growth, by anticipating which customers will quit. There are several products and solutions in today’s competitive industry. Because of this, most clients are accustomed to quickly switching from one brand to another and from one supplier to another in their search for the best possible product or item to fulfill their requirements. This problem, known as “client churn,” affects e-commerce enterprises. Due to their ability to process large volumes of data and recognize complex patterns, machine learning algorithms have emerged as a powerful tool for predicting client churn in recent years. Using a publicly accessible dataset, the proposed model examines various machine learning methods for predicting customer churn in this study. Also, by using performance metrics, the proposed model compares how well different algorithms perform.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="blog-post-item">
+              <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4269263">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/flighwqdj (1).jpeg" alt="Comparative Performance Analysis using Machine Learning for Churn Prediction in E-commerce" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Machine Learning</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">December 15, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Flight Fare Prediction Using Machine Learning</h3>
+
+                  <p class="blog-text">
+                    As more and more people look for ways to get from one place to another more quickly, air travel has developed into an indispensable component of the modern way of life. The prices of airline tickets are subject to sporadic increases or decreases, based on a variety of criteria such as the scheduling of the flights, the destination, and the duration of the flights, as well as numerous events and occasions such as holidays and celebrations. As a result, having at least a general concept of the costs of the flights before beginning to organize the trip will undoubtedly assist a great number of people in saving both money and time. The accumulated flight history will be used in our system to inform the development of a prediction model, which will be accomplished by employing machine learning methods. People will get an understanding from this system about the trends that prices follow, and it will also provide a forecast price value that they can refer to before purchasing flight tickets in order to save money. Customers may receive this kind of system or service if it is made available to them.
+                  </p>
+                </div>
+              </a>
+            </li>
+            
+
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
